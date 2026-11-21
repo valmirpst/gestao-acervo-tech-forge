@@ -1,0 +1,16 @@
+{
+  "name": "gestao-acervo-tech-forge",
+  "version": "1.0.0",
+  "description": "Sistema de gestão de acervo em TypeScript aplicando conceitos de POO",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
